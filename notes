@@ -1,0 +1,22 @@
+arm is load-store architecture 
+
+in THUMB...
+
+load (LDR) from memory into a register
+store (STR) from a register into memory
+
+registers can hold data, adresses, or instructions
+
+e.g.
+
+LDR r4, r3
+
+loads the contents of the address (memory) that is referenced by r3 into register r4.
+
+---------------------------------------------------------------
+
+STR r4, r5
+
+stores the contents of r4 into the address which is referenced by r5.
+
+ 
